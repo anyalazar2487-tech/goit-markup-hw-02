@@ -153,6 +153,39 @@ body{
     letter-spacing: 0.02em; 
     color: #434455; 
 }
+.fourth_section {
+    padding: 40px; 
+}
+.section_title_foto {
+    font-size: 36px;
+    line-height: 1.11; 
+    text-align: center; 
+    letter-spacing: 0.02em; 
+    text-transform: capitalize; 
+    color: #2e2f42;
+}
+.app_list {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+.list_item_foto {
+    margin-bottom: 30px; 
+    text-align: center; 
+}
+.item_title_foto {
+    font-weight: 500; 
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0.02em; 
+    color: #2e2f42; 
+}
+.item_description_foto {
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    color: #434455; 
+}
 
 
 
