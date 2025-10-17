@@ -60,76 +60,69 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a{
-    text-decoration: none;
+.main_section {
+    background-color: #2e2f42; 
+    padding: 40px; 
+    text-align: center; 
 }
-ul{
-    list-style: none;
-    margin: 0;
+.section_title {
+    font-size: 56px; 
+    line-height: 1.07; 
+    letter-spacing: 0.02em; 
+    color: #ffffff; 
 }
-button{
-    background-color:#4D5AE5 ;
-    cursor: pointer;
-    color:#FFFFFF ;
+.cta_button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff; 
+    cursor: pointer; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
 }
-h1{
-    size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
-    color: #434455 ;
+.cta_button:hover,
+.cta_button:focus {
+    background-color: #404BBF; 
 }
-h2{
-    size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
-h3{
-    size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
-p{
-    size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color:#434455 ;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
