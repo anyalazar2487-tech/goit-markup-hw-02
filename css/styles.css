@@ -199,7 +199,7 @@ body{
     padding: 20px; 
     text-align: center;
 }
-.logo {
+.logo_footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px; 
@@ -208,7 +208,7 @@ body{
     text-transform: uppercase; 
     color: #4d5ae5; 
 }
-.logo_text {
+.logo_text_footer {
     color: #f4f4fd; 
 }
 .footer_description {
