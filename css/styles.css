@@ -1,13 +1,13 @@
-body{
-  font-family:"Roboto", "Raleway", sans-serif;
+body {
+  font-family:"Roboto", sans-serif;
   color: #434455 ;
    background-color:#FFFFFF ;
 }
-.header_section{
+.header_section {
     background-color: #ffffff;
     padding: 20px;
 }
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,7 +97,7 @@ body{
     background-color: #404BBF; 
 }
 
-.main_section_info{
+.main_section_info {
     background-color: white;
     padding: 40px; 
     text-align: center; 
@@ -111,14 +111,14 @@ body{
 .list_item_info {
     margin-bottom: 30px; 
 }
-.item_title_info{
+.item_title_info {
     font-weight: 500; 
     font-size: 20px; 
     line-height: 1.2; 
     letter-spacing: 0.02em; 
     color: #2e2f42;
 }
-.item_description_info{
+.item_description_info {
     font-size: 16px; 
     line-height: 1.5; 
     letter-spacing: 0.02em;
@@ -129,7 +129,7 @@ body{
     background-color: #F4F4FD; 
     padding: 40px; 
 }
-.section_title_team{
+.section_title_team {
     font-size: 36px;
     line-height: 1.11; 
     text-align: center; 
@@ -142,7 +142,7 @@ body{
     padding: 0; 
     margin: 0; 
 }
-.list_item_team{
+.list_item_team {
     background-color: #FFFFFF; 
     padding: 20px; 
     margin-bottom: 20px; 
@@ -155,7 +155,7 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42; 
 }
-.item_description_team{
+.item_description_team {
     font-size: 16px; 
     line-height: 1.5;
     letter-spacing: 0.02em; 
