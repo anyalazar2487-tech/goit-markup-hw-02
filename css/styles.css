@@ -3,6 +3,15 @@ body{
   color: #434455 ;
    background-color:#FFFFFF ;
 }
+.header_section{
+    background-color: #ffffff;
+    padding: 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -19,10 +28,10 @@ body{
     list-style: none; 
     padding: 0; 
     margin: 0; 
+    display: flex;
 }
 .nav_item {
-    display: inline; 
-    margin-right: 20px; 
+    margin-left: 20px;
 }
 .nav_link {
     font-weight: 500;
@@ -52,7 +61,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
 }
 .contact_link:hover,
 .contact_link:focus {
