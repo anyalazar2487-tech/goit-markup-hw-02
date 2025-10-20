@@ -21,8 +21,11 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo_text {
-    color: #2e2f42;
+.logo_text{
+    color:#2e2f42 ;
+}
+.blue_text {
+    color:  #4d5ae5;
 }
 .nav_list {
     list-style: none; 
