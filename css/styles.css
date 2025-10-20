@@ -1,17 +1,10 @@
 body {
   font-family:"Roboto", sans-serif;
-  margin: 0;
   color: #434455 ;
-  line-height: 1.6;
   background-color: #FFFFFF ;
 }
 .header_section {
     background-color: #f8f9fa;
-}
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -81,8 +74,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff; 
-    cursor: pointer; 
-    padding: 10px 20px;   
+    cursor: pointer;    
 }
 .cta_button:hover,
 .cta_button:focus {
@@ -90,16 +82,12 @@ body {
 }
 
 .main_section_info {
-    background-color: white; 
-    text-align: center; 
+   padding: 20px; 
 
 }
 .info_list_info{
     list-style: none;  
-    margin: 0; 
-}
-.list_item_info {
-    margin-bottom: 30px; 
+    padding: 0; 
 }
 .item_title_info {
     font-weight: 500; 
@@ -126,43 +114,8 @@ body {
     text-transform: capitalize; 
     color: #2e2f42; 
 }
-.service_list {
-    list-style: none;  
-    margin: 0; 
-}
-.list_item_team {
-    background-color: #FFFFFF;  
-    margin-bottom: 20px; 
-    border-radius: 5px; 
-}
-.item_title_team {
-    font-weight: 500; 
-    font-size: 20px; 
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42; 
-}
-.item_description_team {
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em; 
-    color: #434455; 
-}
-.section_title_foto {
-    font-size: 36px;
-    line-height: 1.11; 
-    text-align: center; 
-    letter-spacing: 0.02em; 
-    text-transform: capitalize; 
-    color: #2e2f42;
-}
-.app_list {
-    list-style: none; 
-    margin: 0; 
-}
-.list_item_foto {
-    margin-bottom: 30px; 
-    text-align: center; 
+.fourth_section{
+    text-align: center;
 }
 .item_title_foto {
     font-weight: 500; 
@@ -180,7 +133,6 @@ body {
 .footer_section {
     background-color: #2e2f42; 
     text-align: center;
-    padding: 20px;
 }
 .logo_footer {
     font-family: "Raleway", sans-serif;
