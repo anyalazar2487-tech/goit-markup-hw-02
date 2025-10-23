@@ -112,8 +112,30 @@ body {
     text-transform: capitalize; 
     color: #2e2f42; 
 }
+.service_list{
+    background-color: #FFFFFF;
+}
+.item_title_team{
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color:#2e2f42 ;
+}
+.item_description_team{
+     font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
 .fourth_section{
     text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42 ;
+
 }
 .item_title_foto {
     font-weight: 500; 
