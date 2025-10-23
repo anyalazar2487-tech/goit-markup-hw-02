@@ -15,11 +15,9 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo_text{
+
+.text {
     color:#2e2f42 ;
-}
-.blue_text {
-    color:  #4d5ae5;
 }
 .nav_list {
     list-style: none; 
@@ -143,7 +141,7 @@ body {
     text-transform: uppercase; 
     color: #4d5ae5; 
 }
-.logo_text_footer {
+.footer_text {
     color: #f4f4fd; 
 }
 .footer_description {
