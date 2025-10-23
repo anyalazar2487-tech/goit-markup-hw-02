@@ -5,6 +5,12 @@ body {
 }
 .header_section {
     background-color: #f8f9fa;
+    padding: 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -21,12 +27,14 @@ body {
 }
 .nav_list {
     list-style: none; 
+    display: flex;
 }
 .nav_item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-left: 20px;
     color:#2E2F42 ;
     text-decoration: none; 
 }
@@ -37,10 +45,7 @@ body {
 .contact_info {
     font-style: normal; 
 }
-.contact_list {
-    list-style: none; 
-    padding: 0; 
-}
+
 .contact_item {
     text-decoration: none;
     font-size: 16px;
@@ -57,11 +62,11 @@ body {
 .main_section {
     background-color: #2e2f42; 
     text-align: center; 
+    padding: 50px 0;
 }
 .section_title {
     font-size: 56px; 
     line-height: 1.07; 
-    letter-spacing: 0.02em; 
     color: #ffffff; 
 }
 .cta_button {
@@ -71,6 +76,8 @@ body {
     font-size: 16px; 
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border: none;
+    padding: 10px 20px;
     color: #ffffff; 
     cursor: pointer;    
 }
@@ -80,13 +87,10 @@ body {
 }
 
 .main_section_info {
-   padding: 20px; 
+   padding: 50px 20px; 
 
 }
-.info_list_info{
-    list-style: none;  
-    padding: 0; 
-}
+
 .item_title_info {
     font-weight: 500; 
     font-size: 20px; 
@@ -101,8 +105,13 @@ body {
     color: #434455; 
 }
 
+
+
+
+
 .third_section {
-    background-color: #F4F4FD;  
+    background-color: #F4F4FD;
+    padding: 50px 20px;  
 }
 .section_title_team {
     font-size: 36px;
@@ -113,7 +122,7 @@ body {
     color: #2e2f42; 
 }
 .service_list{
-    background-color: #FFFFFF;
+    background-color: #FFFFFF
 }
 .item_title_team{
      font-weight: 500;
@@ -128,7 +137,68 @@ body {
     letter-spacing: 0.02em;
     color: #434455; 
 }
-.fourth_section{
+
+
+
+
+
+
+
+
+
+
+
+.our-team {
+    padding: 50px 20px;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.member-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.our-portfolio {
+    padding: 50px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_title_foto{
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
@@ -150,9 +220,17 @@ body {
     letter-spacing: 0.02em; 
     color: #434455; 
 }
+
+
+
+
+
+
+
 .footer_section {
     background-color: #2e2f42; 
     text-align: center;
+    padding: 20px;
 }
 .logo_footer {
     font-family: "Raleway", sans-serif;
