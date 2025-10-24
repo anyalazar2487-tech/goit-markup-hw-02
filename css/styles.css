@@ -33,7 +33,7 @@ a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2E2F42 ;
+    color: #2e2f42 ;
 }
 
 
@@ -47,10 +47,10 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.nav_link:hover,
-.nav_link:focus,
-.contact_link:hover,
-.contact_link:focus {
+.nav_item:hover,
+.nav_item:focus,
+.contact_item:hover,
+.contact_item:focus {
 
     color: #404bbf; 
 }
