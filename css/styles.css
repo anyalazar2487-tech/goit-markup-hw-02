@@ -65,6 +65,7 @@ a{
     background-color: #2e2f42; 
     text-align: center; 
     padding: 50px 0;
+    letter-spacing: 0.02em;
 }
 .section_title {
     font-size: 56px; 
