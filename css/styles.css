@@ -28,7 +28,7 @@ a{
     text-transform: uppercase;
 }
 
-.nav_item {
+.nav_link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -37,20 +37,20 @@ a{
 }
 
 
-.contact_info {
+.contact_list {
     font-style: normal; 
 }
 
-.contact_item {
+.contact_link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.nav_item:hover,
-.nav_item:focus,
-.contact_item:hover,
-.contact_item:focus {
+.nav_link:hover,
+.nav_link:focus,
+.contact_link:hover,
+.contact_link:focus {
 
     color: #404bbf; 
 }
