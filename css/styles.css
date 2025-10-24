@@ -3,15 +3,16 @@ body {
   color: #434455 ;
   background-color: #FFFFFF ;
 }
-.header_section {
-    background-color: #f8f9fa;
-    padding: 20px;
+
+ul, ol{
+    list-style: none;
 }
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+a{
+    text-decoration: none;
 }
+
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -24,39 +25,36 @@ body {
 
 .text {
     color:#2e2f42 ;
+    text-transform: uppercase;
 }
-.nav_list {
-    list-style: none; 
-    display: flex;
-}
-.nav_item {
+
+.nav_link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 20px;
     color:#2E2F42 ;
-    text-decoration: none; 
 }
-.nav_item:hover,
-.nav_item:focus {
-    color: #404bbf; 
-}
+
+
 .contact_info {
     font-style: normal; 
 }
 
-.contact_item {
-    text-decoration: none;
+.contact_link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contact_item:hover,
-.contact_item:focus {
+.nav_link:hover,
+.nav_link:focus,
+.contact_link:hover,
+.contact_link:focus {
+
     color: #404bbf; 
 }
+
 
 
 .main_section {
@@ -85,6 +83,8 @@ body {
 .cta_button:focus {
     background-color: #404BBF; 
 }
+
+
 
 .main_section_info {
    padding: 50px 20px; 
@@ -137,59 +137,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455; 
 }
-
-
-
-
-
-
-
-
-
-
-
-.our-team {
-    padding: 50px 20px;
-}
-
-.team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.member-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.member-role {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.our-portfolio {
-    padding: 50px 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
