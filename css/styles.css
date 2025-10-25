@@ -64,7 +64,6 @@ a{
 .main_section {
     background-color: #2e2f42; 
     text-align: center; 
-    padding: 50px 0;
     letter-spacing: 0.02em;
 }
 .section_title {
@@ -81,7 +80,6 @@ a{
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
-    padding: 10px 20px;
     color: #ffffff; 
     cursor: pointer;    
 }
@@ -97,10 +95,6 @@ a{
 
 
 
-.main_section_info {
-   padding: 50px 20px; 
-
-}
 
 .item_title_info {
     font-weight: 500; 
@@ -126,9 +120,9 @@ a{
 
 
 .third_section {
-    background-color: #F4F4FD;
-    padding: 50px 20px;  
+    background-color: #F4F4FD; 
 }
+
 .section_title_team {
     font-size: 36px;
     line-height: 1.11; 
@@ -149,9 +143,9 @@ a{
 }
 .item_description_team{
      font-size: 16px; 
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    color: #434455; 
+     line-height: 1.5; 
+     letter-spacing: 0.02em;
+     color: #434455; 
 }
 
 
@@ -196,8 +190,8 @@ a{
 .footer_section {
     background-color: #2e2f42; 
     text-align: center;
-    padding: 20px;
 }
+
 .logo_footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
