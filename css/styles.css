@@ -136,9 +136,7 @@ a{
     text-transform: capitalize; 
     color: #2e2f42; 
 }
-.service_list{
-    background-color: #FFFFFF
-}
+
 .item_title_team{
      font-weight: 500;
      font-size: 20px;
@@ -194,7 +192,6 @@ a{
 
 .footer_section {
     background-color: #2e2f42; 
-    text-align: center;
 }
 
 .logo_footer {
